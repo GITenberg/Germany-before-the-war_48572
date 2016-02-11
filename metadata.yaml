@@ -1,0 +1,30 @@
+_repo: Germany-before-the-war_48572
+contributor:
+  translator:
+    agent_name: Cohn, Paul V. (Paul Victor)
+    alias: Cohn, Paul Victor
+    gutenberg_agent_id: '41296'
+    url: http://www.gutenberg.org/2009/agents/41296
+creator:
+  author:
+    agent_name: Beyens, baron (Eugène-Napoléon)
+    alias: Beyens, Eugène-Napoléon
+    birthdate: 1855
+    deathdate: 1934
+    gutenberg_agent_id: '44860'
+    url: http://www.gutenberg.org/2009/agents/44860
+    wikipedia: http://www.gutenberg.org/fr.wikipedia
+description: ''
+gutenberg_issued: '2015-03-24'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '48572'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'World War, 1914-1918 -- Causes'
+- !lcsh 'Germany -- Foreign relations -- 1871-1918'
+title: Germany before the war
+url: http://www.gutenberg.org/ebooks/48572
