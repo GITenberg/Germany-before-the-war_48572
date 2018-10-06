@@ -1,216 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/48572">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/48572/48572-0.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530172</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf7a9401aaec047dab0586d450d47f03b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-24T09:58:18</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48572/pg48572.cover.small.jpg">
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T03:10:00.697873</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N62709760d7a5464baca3ef698581a25d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2506</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndf00cc3053fd473bbc72224a830e0607">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T03:09:54.752115</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292977</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48572/pg48572.cover.medium.jpg">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N78b8a2ae030a416f897c023c74881d5b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T03:10:00.779855</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16489</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1085912</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N25feb30a131040989f2ba311a7009281">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T03:10:00.579883</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/41296">
-        <pgterms:name>Cohn, Paul V. (Paul Victor)</pgterms:name>
-        <pgterms:alias>Cohn, Paul Victor</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:trl>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nc4373ee605bb425fabd7059c77820c24">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/48572/48572-h.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272041</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfe503594e838479799791ef3944e3d1b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne8e707eaa3754ffaa73b643a6e339f60">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-24T09:58:46</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-24</dcterms:issued>
-    <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/48572/48572-h/48572-h.htm">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">576185</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N416dbb5eed6a4d5ba7c19ad584aa632f">
+          <rdf:Description rdf:nodeID="N90eeff891cb04fe4a5e3a8644cbe4ee6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-24T09:58:30</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">576185</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.rdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-28T08:30:43.652031</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12394</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48572/pg48572.cover.small.jpg">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbd669cce13294edeae04ca0a25e4d65f">
+          <rdf:Description rdf:nodeID="Nfb5d98f8b1b641c9a7dde56cca17c6c9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2506</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:07:10.141999</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/48572/pg48572.cover.medium.jpg">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16503</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:07:10.199002</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7b81ee6f274b46139676ff284b7e1021">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</pgterms:downloads>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/41296">
+        <pgterms:alias>Cohn, Paul Victor</pgterms:alias>
+        <pgterms:name>Cohn, Paul V. (Paul Victor)</pgterms:name>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:tableOfContents>Introduction -- I. The Emperor William -- II. The imperial family, court, and government -- III. The army and the navy; the war party -- IV. The Reichstag and political parties -- V. Public opinion; economic causes of the war -- VI. The Moroccan question -- VII. The eastern question -- VIII. The week of tragedy -- IX. Belgian neutrality and the invasion of Belgium -- Conclusion -- Appendix.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/48572/48572-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7630fa9b94184a9688757103d3d7a5fc">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272041</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-24T09:58:46</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb38ac24820494613ab42e5a96c66cf98">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292922</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4bd5188f4d4c4950a9ac4a17ac5504fb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:07:03.059163</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N67e8281901424de28532975ba602b2f7">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      <rdf:Description rdf:nodeID="N734e08d357da4b3da316f2d133b679c3">
         <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/44860">
-        <pgterms:webpage rdf:resource="fr.wikipedia"/>
-        <pgterms:alias>Beyens, Eugène-Napoléon</pgterms:alias>
-        <pgterms:name>Beyens, baron (Eugène-Napoléon)</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1855</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</pgterms:deathdate>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.kindle.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T03:09:58.001975</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N98460e5dd8bf4b22ad22513715b8e9e5">
+          <rdf:Description rdf:nodeID="N9ecd7d9aede44984bafd1a42b2920b20">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T06:41:07.333602</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13340</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N4d103f598b654f6384bb6179f1422f1c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>D501</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:title>Germany before the war</dcterms:title>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N5da1b06349dc4e3c9aaff523d85af75c">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:07:10.080997</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1085890</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1059251d24d74028b6de25cf2c7383ee">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1085921</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-24</dcterms:issued>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/44860">
+        <pgterms:webpage rdf:resource="fr.wikipedia"/>
+        <pgterms:alias>Beyens, Napoléon Eugène Louis Joseph Marie Auguste, baron</pgterms:alias>
+        <pgterms:alias>Beyens, baron (Eugene-Napoleon)</pgterms:alias>
+        <pgterms:alias>Beyens, Eugène, baron</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1855</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</pgterms:deathdate>
+        <pgterms:name>Beyens, baron (Eugène-Napoléon)</pgterms:name>
+        <pgterms:alias>Beyens, Eugène-Napoléon, baron</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/48572/48572-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7e9c5be40dc343d48e044f76bf1c6bd7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N600e53c7c92b403d95e85352b5e2ae12">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-24T09:58:46</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203804</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:07:06.976061</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1085898</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc386f6136d0f4a50ab393b6064fd04a1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8040d378952849f29a228c5adbe9fe4a">
+      <rdf:Description rdf:nodeID="Ncfcf0fb61140432981f6155d5194b247">
         <rdf:value>World War, 1914-1918 -- Causes</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292976</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-25T03:09:55.439096</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/48572/48572-0.txt">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc900b878e61e4b3cb0b7f44c33e4acbd">
+          <rdf:Description rdf:nodeID="Na0fdeca62376467e98b0c1a124459fd8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530172</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-24T09:58:18</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Germany before the war</dcterms:title>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N3c2f89f551db48e6923ea9b8adc10302">
+      <rdf:Description rdf:nodeID="Na84f8e7f465a467493e59182ec6ff831">
         <rdf:value>Germany -- Foreign relations -- 1871-1918</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/48572/48572-0.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nba93be2bd1ed4442ae1265de19eeb37c">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfee7c61e315a415488f98fe57bb839ad">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203804</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-24T09:58:46</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/48572.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292922</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/48572"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N433981be270f4a00b2fd5cf5af163cd0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-25T03:07:03.818124</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
